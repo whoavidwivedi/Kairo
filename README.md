@@ -1,21 +1,75 @@
-# shadcn/ui monorepo template
+# Kairo
 
-This is a Next.js monorepo template with shadcn/ui.
+> Software should adapt to your business, not the other way around.
 
-## Adding components
+Kairo is an AI-native, configurable CRM Platform being built from first principles.
 
-To add components to your app, run the following command at the root of your `web` app:
+The goal is to create a platform that enables organizations to manage customer relationships, automate workflows, integrate external services, and adapt the software to their own business processes instead of changing their business to fit the software.
 
-```bash
-pnpm dlx shadcn@latest add button -c apps/web
+---
+
+## Vision
+
+Traditional CRM systems define how businesses should operate.
+
+Kairo is being designed to let businesses define their own workflows, objects, pipelines, and processes while providing a clean, extensible foundation.
+
+---
+
+## Current Status
+
+🚧 Early Development
+
+The project is currently focused on designing the platform architecture and building the CRM core.
+
+---
+
+## Long-Term Goals
+
+- Configurable CRM
+- Workflow Automation
+- AI-native Insights
+- Integrations Platform
+- Metadata Engine
+- Developer Platform
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+
+### Monorepo
+
+- Turborepo
+- Bun
+
+---
+
+## Project Structure
+
+```text
+apps/
+    web/
+
+packages/
+    ui/
+    eslint-config/
+    typescript-config/
+
+docs/
 ```
 
-This will place the ui components in the `packages/ui/src/components` directory.
+---
 
-## Using components
+## Philosophy
 
-To use the components in your app, import them from the `ui` package.
+Build the platform.
 
-```tsx
-import { Button } from "@workspace/ui/components/button";
-```
+Not just the product.
