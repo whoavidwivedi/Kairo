@@ -43,3 +43,30 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# -----------------------------
+# Go Backend
+# -----------------------------
+
+# Go binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binaries
+*.test
+
+# Coverage
+*.out
+coverage.out
+
+# Temporary directories
+tmp/
+temp/
+
+# Go workspace
+go.work.sum
